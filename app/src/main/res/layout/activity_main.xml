@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextSiteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter site name to block/unblock"
+        android:layout_marginBottom="16dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSiteName"
+        android:layout_marginTop="16dp"
+        android:text="Block" />
+
+    <Button
+        android:id="@+id/buttonUnblock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBlock"
+        android:layout_marginTop="16dp"
+        android:text="Unblock" />
+
+    <ListView
+        android:id="@+id/listViewBlockedSites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonUnblock"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
