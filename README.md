@@ -31,5 +31,3 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 ## License
 This project is licensed under the MIT License.
 
-## Contact
-For any inquiries or feedback, please contact advikbronw@gmail.com.
